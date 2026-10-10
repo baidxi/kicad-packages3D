@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 /* ST_DFN-10-1EP_3x3mm_P0.5mm_EP0.62x0.98mm.step 3D STEP model for use in ECAD systems
- * Copyright (C) 2025, KiCAD
+ * Copyright (C) 2026, KiCAD
  *
  * This work is licensed under the
  * [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode),
@@ -438,21 +438,21 @@ DATA;
 #394=ORIENTED_EDGE('',*,*,#395,.F.);
 #395=EDGE_CURVE('',#396,#398,#400,.T.);
 #396=VERTEX_POINT('',#397);
-#397=CARTESIAN_POINT('',(-0.21,-0.54,0.));
+#397=CARTESIAN_POINT('',(-0.21,-0.24,0.));
 #398=VERTEX_POINT('',#399);
-#399=CARTESIAN_POINT('',(0.21,-0.54,0.));
+#399=CARTESIAN_POINT('',(0.21,-0.24,0.));
 #400=LINE('',#397,#151);
 #401=ORIENTED_EDGE('',*,*,#402,.F.);
 #402=EDGE_CURVE('',#403,#396,#405,.T.);
 #403=VERTEX_POINT('',#404);
-#404=CARTESIAN_POINT('',(-0.21,0.24,0.));
+#404=CARTESIAN_POINT('',(-0.21,0.54,0.));
 #405=LINE('',#404,#406);
 #406=VECTOR('',#407,1.);
 #407=DIRECTION('',(0.,-1.,0.));
 #408=ORIENTED_EDGE('',*,*,#409,.F.);
 #409=EDGE_CURVE('',#410,#403,#412,.T.);
 #410=VERTEX_POINT('',#411);
-#411=CARTESIAN_POINT('',(0.21,0.24,0.));
+#411=CARTESIAN_POINT('',(0.21,0.54,0.));
 #412=LINE('',#411,#413);
 #413=VECTOR('',#414,1.);
 #414=DIRECTION('',(-1.,0.,0.));
@@ -726,7 +726,7 @@ DATA;
 #682=ORIENTED_EDGE('',*,*,#402,.T.);
 #683=PLANE('',#684);
 #684=AXIS2_PLACEMENT_3D('',#685,#13,#142);
-#685=CARTESIAN_POINT('',(0.,-0.15,0.));
+#685=CARTESIAN_POINT('',(0.,0.15,0.));
 #686=ADVANCED_FACE('',(#687),#690,.F.);
 #687=FACE_BOUND('',#688,.F.);
 #688=EDGE_LOOP('',(#542,#547,#552,#689));
